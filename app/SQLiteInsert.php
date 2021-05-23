@@ -3,8 +3,8 @@
 namespace App;
 
 /**
- * SQLite connnection
- * Class SQLiteConnection
+ * inserir registro no SQLite
+ * Class SQLiteInsert
  *
  * @author  Rubens Nelson Santos Gonçalves <rubensnsg@hotmail.com.br>
  * @since   2021-05-22
