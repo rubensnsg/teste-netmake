@@ -1,0 +1,14 @@
+Este é uma avaliação que deverá ser entregue o mais rápido possível via e-mail. 
+(Pontos avaliados: tempo de entrega, organização de código, técnicas utilizadas,
+funcionamento em geral)
+
+Baixar o arquivo "teste.rar" em anexo, contendo uma base de dados sqlite
+(teste.db) que será utilizada para o teste.
+
+1)
+a. Construir um formulário utilizando HTML+PHP baseado na tabela "products".
+b. Utilizar campo autocomplete para os campos supplierid e categoryid.
+c. Validar os campos com Ajax.
+d. Utilizar componentes como Ajax / JQuery / Javascript / Bootstrap.
+
+2) Utilizando o PHP, construa uma árvore de exibição para os registros da tabela "nodes", com a descrição e o valor cadastrado para cada nó. Obs: O valor dos nós filhos deverão ser somados no valor do pai.
