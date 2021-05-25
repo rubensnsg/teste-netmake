@@ -22,6 +22,23 @@ class ComposerStaticInitaea4f3f90ff9a1876659277a3e0785f7
 
     public static $classMap = array (
         'App\\Config' => __DIR__ . '/../..' . '/app/Config.php',
+        'App\\Controllers\\CategoriaController' => __DIR__ . '/../..' . '/app/Controllers/CategoriaController.php',
+        'App\\Controllers\\FornecedorController' => __DIR__ . '/../..' . '/app/Controllers/FornecedorController.php',
+        'App\\Controllers\\NodeController' => __DIR__ . '/../..' . '/app/Controllers/NodeController.php',
+        'App\\Controllers\\ProdutoController' => __DIR__ . '/../..' . '/app/Controllers/ProdutoController.php',
+        'App\\SQLiteConnection' => __DIR__ . '/../..' . '/app/SQLiteConnection.php',
+        'App\\SQLiteDelete' => __DIR__ . '/../..' . '/app/SQLiteDelete.php',
+        'App\\SQLiteInsert' => __DIR__ . '/../..' . '/app/SQLiteInsert.php',
+        'App\\SQLiteSelect' => __DIR__ . '/../..' . '/app/SQLiteSelect.php',
+        'App\\SQLiteUpdate' => __DIR__ . '/../..' . '/app/SQLiteUpdate.php',
+        'App\\Services\\CategoriaService' => __DIR__ . '/../..' . '/app/Services/CategoriaService.php',
+        'App\\Services\\CategoriaServiceInterface' => __DIR__ . '/../..' . '/app/Services/CategoriaServiceInterface.php',
+        'App\\Services\\FornecedorService' => __DIR__ . '/../..' . '/app/Services/FornecedorService.php',
+        'App\\Services\\FornecedorServiceInterface' => __DIR__ . '/../..' . '/app/Services/FornecedorServiceInterface.php',
+        'App\\Services\\NodeService' => __DIR__ . '/../..' . '/app/Services/NodeService.php',
+        'App\\Services\\NodeServiceInterface' => __DIR__ . '/../..' . '/app/Services/NodeServiceInterface.php',
+        'App\\Services\\ProdutoService' => __DIR__ . '/../..' . '/app/Services/ProdutoService.php',
+        'App\\Services\\ProdutoServiceInterface' => __DIR__ . '/../..' . '/app/Services/ProdutoServiceInterface.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 

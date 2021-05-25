@@ -7,5 +7,22 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'App\\Config' => $baseDir . '/app/Config.php',
+    'App\\Controllers\\CategoriaController' => $baseDir . '/app/Controllers/CategoriaController.php',
+    'App\\Controllers\\FornecedorController' => $baseDir . '/app/Controllers/FornecedorController.php',
+    'App\\Controllers\\NodeController' => $baseDir . '/app/Controllers/NodeController.php',
+    'App\\Controllers\\ProdutoController' => $baseDir . '/app/Controllers/ProdutoController.php',
+    'App\\SQLiteConnection' => $baseDir . '/app/SQLiteConnection.php',
+    'App\\SQLiteDelete' => $baseDir . '/app/SQLiteDelete.php',
+    'App\\SQLiteInsert' => $baseDir . '/app/SQLiteInsert.php',
+    'App\\SQLiteSelect' => $baseDir . '/app/SQLiteSelect.php',
+    'App\\SQLiteUpdate' => $baseDir . '/app/SQLiteUpdate.php',
+    'App\\Services\\CategoriaService' => $baseDir . '/app/Services/CategoriaService.php',
+    'App\\Services\\CategoriaServiceInterface' => $baseDir . '/app/Services/CategoriaServiceInterface.php',
+    'App\\Services\\FornecedorService' => $baseDir . '/app/Services/FornecedorService.php',
+    'App\\Services\\FornecedorServiceInterface' => $baseDir . '/app/Services/FornecedorServiceInterface.php',
+    'App\\Services\\NodeService' => $baseDir . '/app/Services/NodeService.php',
+    'App\\Services\\NodeServiceInterface' => $baseDir . '/app/Services/NodeServiceInterface.php',
+    'App\\Services\\ProdutoService' => $baseDir . '/app/Services/ProdutoService.php',
+    'App\\Services\\ProdutoServiceInterface' => $baseDir . '/app/Services/ProdutoServiceInterface.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
 );

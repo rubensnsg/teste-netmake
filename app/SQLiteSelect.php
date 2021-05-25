@@ -76,7 +76,7 @@ class SQLiteSelect {
 
         $paginaFinal = (string) (ceil($totalNoSql / $quantidadePorPagina));
 
-        $fimSql = $limitNoSql;
+        $fimSql .= $limitNoSql;
 
         $retorno = $this->selecionarTodos($tabela, $campos, $where, $parametros, $fimSql);
 
