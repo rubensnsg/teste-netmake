@@ -1,3 +1,5 @@
-# teste-netmake
-Teste com exercício simples para verificação de habilidades e competências
-Basicamente um CRUD com SQLite
+# Experiência com SQLite
+Segue minha orimeira experiência trabalhando com o Banco de Dados SQLite,
+Basicamente um CRUD com algumas páginas para views
+
+Favicon meramente ilustrativo
